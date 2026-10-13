@@ -1,0 +1,204 @@
+@import "colors";
+
+
+.Home{
+    width: 100%;
+    height: 100vh;
+    background-color: $second;
+    border-radius: 200px 200px 200px 200px;
+
+    >main{
+        position: absolute;
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 100%;
+        height: 100%;
+        padding: 2rem;
+        justify-content: center;
+
+    h1{
+        font: 400 6rem $text1;
+        color : $first;
+    }
+    p{
+        font: 600 1rem $text2;
+        color : $first;
+    }
+    }
+    &::before{
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+
+        background: no-repeat center/auto url(../assets/3.png);
+        border-radius: 200px 200px 2200px 2200px;
+
+    }
+}
+
+
+.Home2{
+    width: 100%;
+    height: 50vh;
+    background-color: $first;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: last baseline;
+    // margin-top: -200px;
+    
+    // >img{
+    //     width: 20%;
+    //     height: 40vh;
+    //     padding: 1rem;
+    //     animation: imgUp 0.7s linear infinite alternate;
+        
+
+    // }
+
+
+    >div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10rem;
+        height: 80vh;
+
+
+        p{  
+            color : $second;
+            letter-spacing: 2px;
+            word-spacing: 5px;
+            font: 100 1.2rem $text2;
+            font-size: xxx-large;
+        }
+    }
+}
+
+// @keyframes imgUp {
+//     to{
+//         transform: translateY(-10px);
+//     }
+// }
+
+
+.Home3{
+     width: 100%;
+    height: 30vh;
+    background-color: $second;
+   // padding: 10%;
+    // display: flex;
+    // align-items: center;
+    // justify-content: last baseline;
+    // box-sizing: border-box;
+    border-radius: 200px 200px 200px 200px;
+
+    >div{
+         width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: last baseline;
+        align-items: center;
+        text-align: center;
+       // padding: 10%;
+
+
+    h1{
+        font: 400 6rem $text1;
+        color: $first;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    p{
+        color: $first;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+        font: 100 1.2rem $text2;
+        padding: 5%;
+    }
+    }
+}
+
+
+
+.Home4{
+    // width: 100%;
+    // height: 30vh;
+    background-color: $first;
+     padding: 5rem;
+     display: flex;
+     justify-content: center;
+     flex-direction: row;
+     align-items: center;
+     padding: 5rem;
+     gap: 10px;
+    
+
+    >div{
+    width: 60%;
+    height: 50vh;
+    padding: 5rem;
+    background-color: $third;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 200px 200px 200px 200px;
+    }
+
+    h1 {
+        color: $first;
+        margin: 0;
+    }
+
+    article{
+        display: flex;
+        margin: 2rem 0;
+        flex-wrap: wrap;
+        justify-content: center;
+        // padding: 2rem;
+        // font: 100 2rem $text1;
+        // color: $second;
+        // display: flex;
+        // flex-wrap: wrap;
+        // flex-direction: row;
+        // justify-content: center;
+        // align-items: center;
+        // gap: 3rem;
+
+        > div{
+           // animation: imgUp 0.7s linear infinte alternate;
+            margin: 1rem;
+            height: 10rem;
+            width: 10rem;
+            background-color: $first;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: $dark; 
+            cursor: pointer;
+            transition: all 1s;
+            &:hover{
+                filter: invert(10);
+            }
+            svg{
+                font-size: 2rem;
+            }
+            p{
+                font : 900 1.2rem $text1;
+            }
+        }
+
+        }
+
+}
